@@ -24,7 +24,7 @@ import MovieCard from './components/MovieCard';
 //   );
 // }
 
-// const API_KEY = "your_api_key";
+const API_KEY = "";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("Batman");
@@ -32,7 +32,7 @@ const App = () => {
 
   const searchMovies = async (title) => {
     const response = await fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=1284fa58`
+      `https://www.omdbapi.com/?s=${title}&apikey=${API_KEY}`
     );
     const data = await response.json();
     if (data.Search) {
