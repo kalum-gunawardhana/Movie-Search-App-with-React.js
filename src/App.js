@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import MovieCard from './components/MovieCard';
 
 // function App() {
 //   return (
