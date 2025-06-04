@@ -2,9 +2,13 @@
 
 A beginner-friendly movie search application built with **React.js** that allows users to search for movies using the [OMDb API](https://www.omdbapi.com/). This project is perfect for learning React basics like components, props, state, hooks, and API calls—**without a backend**.
 
+---
+
 ## 🚀 Live Demo
 
 👉 [Live Demo Link](#) &nbsp; _(Optional: add when hosted)_
+
+---
 
 ## 🧰 Tech Stack
 
@@ -13,9 +17,13 @@ A beginner-friendly movie search application built with **React.js** that allows
 - CSS (custom styling)
 - Fetch API
 
+---
+
 ## 📸 Preview
 
 ![Preview](./preview.png) <!-- Add screenshot here if available -->
+
+---
 
 ## 🔑 Features
 
@@ -24,6 +32,8 @@ A beginner-friendly movie search application built with **React.js** that allows
 ✅ Fallback image if poster not available  
 ✅ Responsive layout  
 ✅ Error handling for no results  
+
+---
 
 ## 🛠️ Getting Started
 
